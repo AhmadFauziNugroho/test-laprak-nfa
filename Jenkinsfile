@@ -12,7 +12,7 @@ pipeline {
   stages {
     stage('Checkout Source Code') {
       steps {
-        git url: 'url', branch: 'main' 
+        git url: 'https://github.com/AhmadFauziNugroho/test-laprak-nfa.git', branch: 'main' 
       }
     }
 
